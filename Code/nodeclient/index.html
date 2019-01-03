@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+
+<!-- HTML HEAD -->
+<head>
+  <title>Car Navigation</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+  <h1>Remote Control Test</h1> <br>
+  W - Move Forward <br>
+  S - Move Backwards <br>
+  A - Turn Right <br>
+  D - Turn Left <br>
+  <br>
+  
+  <div style="position:relative;left:28px;">
+    <input style="background-color:red" type="text" id="W" maxlength="2" size="2" backgroundColor = "red" READONLY>
+  </div>
+  <div>
+    <input style="background-color:red" type="text" id="A" maxlength="2" size="2" backgroundColor = "red" READONLY>
+    <input style="position:relative;left:28px;background-color:red" type="text" id="D" maxlength="2" size="2" backgroundColor = "red" READONLY><br>
+  </div>
+  <div style="position:relative;left:28px;">
+    <input style="background-color:red" type="text" id="S" maxlength="2" size="2" READONLY><br>
+  </div>
+  <br>
+
+  <iframe src="http://djchen.ddns.net:8081" style="height:480px;width:640px;"></iframe> <br>
+
+  Decoded Message <br>
+  <div id="message"></div>
+
+  <script type="text/javascript" src="client.js"></script>
+</body>
+
+</html>
